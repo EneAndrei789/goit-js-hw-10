@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+select {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.loader,
+.error {
+  font-size: 18px;
+  color: red;
+}
+
+.cat-info img {
+  max-width: 300px;
+  margin-top: 10px;
+}

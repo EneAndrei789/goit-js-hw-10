@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cat Finder</title>
+    <style>
+      /* Aici puteți adăuga stiluri CSS pentru loader, eroare și alte elemente */
+    </style>
+  </head>
+  <body>
+    <select class="breed-select">
+      <option value="">Select breed</option>
+    </select>
+    <p class="loader" style="display: none">Loading data, please wait...</p>
+    <p class="error" style="display: none">
+      Oops! Something went wrong! Try reloading the page!
+    </p>
+    <div class="cat-info"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
